@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E0659261BF594D1000825F8 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0659221BF594D1000825F8 /* MBProgressHUD+NJ.m */; };
-		7E0659271BF594D1000825F8 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7E0659231BF594D1000825F8 /* MBProgressHUD.bundle */; };
-		7E0659281BF594D1000825F8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0659251BF594D1000825F8 /* MBProgressHUD.m */; };
 		7E67171A1BCDE75E00E3DA8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6717191BCDE75E00E3DA8E /* main.m */; };
 		7E67171D1BCDE75E00E3DA8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E67171C1BCDE75E00E3DA8E /* AppDelegate.m */; };
 		7E6717201BCDE75E00E3DA8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E67171F1BCDE75E00E3DA8E /* ViewController.m */; };
@@ -43,11 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7E0659211BF594D1000825F8 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
-		7E0659221BF594D1000825F8 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
-		7E0659231BF594D1000825F8 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
-		7E0659241BF594D1000825F8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		7E0659251BF594D1000825F8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		7E6717151BCDE75E00E3DA8E /* 私人通讯录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "私人通讯录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6717191BCDE75E00E3DA8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E67171B1BCDE75E00E3DA8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,18 +93,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7E0659201BF594D1000825F8 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				7E0659211BF594D1000825F8 /* MBProgressHUD+NJ.h */,
-				7E0659221BF594D1000825F8 /* MBProgressHUD+NJ.m */,
-				7E0659231BF594D1000825F8 /* MBProgressHUD.bundle */,
-				7E0659241BF594D1000825F8 /* MBProgressHUD.h */,
-				7E0659251BF594D1000825F8 /* MBProgressHUD.m */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
 		7E67170C1BCDE75E00E3DA8E = {
 			isa = PBXGroup;
 			children = (
@@ -136,7 +116,6 @@
 		7E6717171BCDE75E00E3DA8E /* 私人通讯录 */ = {
 			isa = PBXGroup;
 			children = (
-				7E0659201BF594D1000825F8 /* MBProgressHUD */,
 				7E67174E1BCDE83F00E3DA8E /* Model */,
 				7E67174D1BCDE7C900E3DA8E /* View */,
 				7E67174C1BCDE79000E3DA8E /* Controller */,
@@ -325,7 +304,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E6717281BCDE75F00E3DA8E /* LaunchScreen.storyboard in Resources */,
-				7E0659271BF594D1000825F8 /* MBProgressHUD.bundle in Resources */,
 				7E6717251BCDE75F00E3DA8E /* Assets.xcassets in Resources */,
 				7E6717231BCDE75F00E3DA8E /* Main.storyboard in Resources */,
 			);
@@ -359,8 +337,6 @@
 				7E67175A1BCDE9FE00E3DA8E /* EditViewController.m in Sources */,
 				7E6717201BCDE75E00E3DA8E /* ViewController.m in Sources */,
 				7E67171D1BCDE75E00E3DA8E /* AppDelegate.m in Sources */,
-				7E0659281BF594D1000825F8 /* MBProgressHUD.m in Sources */,
-				7E0659261BF594D1000825F8 /* MBProgressHUD+NJ.m in Sources */,
 				7E67171A1BCDE75E00E3DA8E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
